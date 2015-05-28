@@ -1,6 +1,6 @@
 {
-    "name": "clockworkgeek/i18nscan",
-    "description": "Internationalise Magento modules by static analysis",
+    "name": "clockworkgeek/magei18n",
+    "description": "Detect translatable strings in Magento modules and automatically maintain locale/CSV files",
     "license": "GPL-2.0",
     "require": {
         "nikic/php-parser": "^1.3",
