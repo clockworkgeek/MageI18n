@@ -23,7 +23,7 @@ namespace MageI18n;
 
 use Symfony\Component\Console\Application;
 
-$application = new Application('Magento Internationalization', '0.0.0');
+$application = new Application('Magento Internationalization', '0.0.1');
 $application->add(new ScanCommand);
 $application->add(new UpdateCommand);
 $application->add(new GitDiffCommand);
