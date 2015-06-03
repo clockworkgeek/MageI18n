@@ -96,6 +96,6 @@ class RecursiveSourcesIterator implements \RecursiveIterator
      */
     public function hasChildren()
     {
-        return $this->current()->isDir();
+        return $this->current() instanceof \Iterator;
     }
 }
