@@ -56,7 +56,7 @@ class GitFileObject extends SourceFileObject
         return fgets($this->handle);
     }
 
-    public function fgetss($allowable_tags)
+    public function fgetss($allowable_tags = NULL)
     {
         return fgetss($this->handle, null, $allowable_tags);
     }

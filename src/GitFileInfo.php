@@ -109,7 +109,7 @@ class GitFileInfo extends SourceFileInfo
         return $path;
     }
 
-    public function getRelativePathname()
+    public function getRelativePathname($dir = null)
     {
         return $this->getPathname();
     }
